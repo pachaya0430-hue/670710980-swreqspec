@@ -44,3 +44,11 @@
 - เพิ่ม AC-VER-02 และ AC-VER-03 สำหรับกรณีไม่ผ่านและข้อมูลไม่ครบถ้วน
 - เพิ่ม ASM-VER-02 ถึง ASM-VER-05 และระบุว่าไม่มี Open Questions
 - ปรับ Traceability Matrix ให้ Alternative Flow อ้างอิง AC ที่ตรงกับกรณี
+
+## 2026-09-19 คำสั่ง: /plan specs/002-doc-verify/spec.md
+
+- เครื่องมือ: Copilot ใน Codespaces
+- ไฟล์ผลลัพธ์: specs/002-doc-verify/plan.md
+- Constraint ที่ยังไม่ได้ใช้: ไม่มี CON/DOM/IF ใน spec.md
+- สิ่งที่ AI อยากเดาแต่ไม่ได้เดา: ไม่มี Open Questions ใน spec.md ฉบับ Draft v2
+- ผลลัพธ์: ตรวจสอบและยืนยัน plan.md ครบ 8 หัวข้อ ครอบคลุมโมเดลผู้สมัคร เอกสาร ผลตรวจ Audit Log การแจ้งเตือน API/หน้าจอ และการทดสอบ AC-VER-01 ถึง AC-VER-03
