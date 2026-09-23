@@ -99,3 +99,11 @@
 - Constraint ที่ยังไม่ได้ใช้: ไม่มี CON/DOM/IF ใน spec.md
 - สิ่งที่ AI อยากเดาแต่ไม่ได้เดา: ไม่มี Open Questions ใน spec.md ฉบับ Draft v2
 - ผลลัพธ์: สร้างแผนครบ 8 หัวข้อ ครอบคลุมโครงการค่าย การตรวจข้อมูล 4 ส่วน สถานะอนุมัติ การเผยแพร่ การปฏิเสธ และการเข้าชมของนักศึกษา พร้อมการทดสอบ AC-SCH-01 ถึง AC-SCH-03
+
+## 2026-09-23 คำสั่ง: /tasks specs/001-booking/spec.md
+
+- เครื่องมือ: Copilot ใน Codespaces
+- ไฟล์ผลลัพธ์: specs/001-booking/tasks.md
+- สรุป: สร้าง task ย่อย 12 รายการ เรียงลำดับตามการพึ่งพา ตั้งแต่ model migration ไปจนถึง UI integration และตรวจสอบ traceability ครบทุก AC และ Constraint
+- Open Questions ที่ยังค้าง: Q-02 (รูปแบบหมายเลขคิว) ทำให้ T-03 และ T-11 อยู่ในสถานะ รอ Q-02
+- ผลลัพธ์: ไฟล์ tasks.md ครอบคลุม AC-BKG-01 ถึง AC-BKG-06 และ Constraint CON-TECH-01, DOM-PDPA-01, IF-IDP-01, IF-HIS-01, IF-NOT-01 พร้อมตารางตรวจความครบและรายการสิ่งที่ยังไม่ทำ
