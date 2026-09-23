@@ -107,3 +107,10 @@
 - สรุป: สร้าง task ย่อย 12 รายการ เรียงลำดับตามการพึ่งพา ตั้งแต่ model migration ไปจนถึง UI integration และตรวจสอบ traceability ครบทุก AC และ Constraint
 - Open Questions ที่ยังค้าง: Q-02 (รูปแบบหมายเลขคิว) ทำให้ T-03 และ T-11 อยู่ในสถานะ รอ Q-02
 - ผลลัพธ์: ไฟล์ tasks.md ครอบคลุม AC-BKG-01 ถึง AC-BKG-06 และ Constraint CON-TECH-01, DOM-PDPA-01, IF-IDP-01, IF-HIS-01, IF-NOT-01 พร้อมตารางตรวจความครบและรายการสิ่งที่ยังไม่ทำ
+
+## 2026-09-23 คำสั่ง: /implement T-01 specs/001-booking/tasks.md
+
+- เครื่องมือ: Copilot ใน Codespaces
+- ไฟล์ที่สร้าง/แก้: backend/app/db/models.py, backend/app/db/session.py, backend/app/db/migrations/001_init.py, backend/tests/test_T01_db_init.py
+- ผล test: `cd backend && pytest tests/test_T01_db_init.py -q` → 1 passed in 0.36s
+- สิ่งที่เกือบต้องเดาแต่ถามแทน: ไม่มี; ทุกเรื่องตาม spec.md, plan.md และ task T-01 ได้ใช้ได้ตรงกับ CON-TECH-01, DOM-PDPA-01 และ IF-HIS-01 โดยไม่เพิ่มฟีเจอร์นอกขอบเขต

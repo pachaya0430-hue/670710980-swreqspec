@@ -14,7 +14,7 @@ Spec ID: SPEC-BKG-001
 - ไฟล์ที่แตะ: backend/app/db/models.py, backend/app/db/migrations/001_init.py, backend/app/db/session.py
 - ต้องทำหลัง: ไม่มี
 - เสร็จเมื่อ: migration สร้างตาราง slots, bookings, audit_logs พร้อมคอลัมน์สำคัญ index และ constraint ที่จำเป็น
-- สถานะ: พร้อมทำ
+- สถานะ: เสร็จ รอทีมตรวจ
 
 ### T-02 คำนวณช่วงเวลาว่างและค้นช่วงที่ว่างตามแพ็กเกจ
 - รองรับ: FR-BKG-01, FR-BKG-06, NFR-PERF-01
