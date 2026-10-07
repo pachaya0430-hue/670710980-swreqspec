@@ -73,3 +73,13 @@
 - ครอบคลุม: การจองสำเร็จแบบปกติ, จองเมื่อเหลือหลายที่, จองครั้งสุดท้าย, สร้าง queue_no, ยังไม่ได้ยืนยันตัวตน, slot_id ที่ไม่มี
 - รัน: cd backend && pytest -q tests/test_AC_BKG_01.py
 - ผล: 6 passed
+
+---
+
+## 2569-10-07 08:33 คำสั่ง: /verify specs/001-booking/
+
+- โหมด: ตรวจ requirement แบบตามรอยไปข้างหน้าและย้อนกลับ
+- ผล test: backend 9 passed, frontend 1 passed, รวม 10 passed / 0 failed
+- สรุป: FR-BKG-01 และ FR-BKG-04 มีข้อค้นพบด้านตัวเลขและ Q-02; DOM-PDPA-01 ไม่มี audit log จริง; FR-BKG-02/03/05 และ IF-HIS-01/IF-NOT-01 ยังไม่ทำ
+- F-ID ใหม่: F-001, F-002, F-003, F-004
+- ไฟล์ที่แก้ได้: specs/001-booking/rtm.md, prompt-log.md
